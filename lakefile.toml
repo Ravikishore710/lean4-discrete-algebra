@@ -1,0 +1,9 @@
+name = "lean4-discrete-algebra"
+version = "2.0.0"
+defaultTargets = ["DiscreteAlgebra"]
+
+[leanOptions]
+autoImplicit = false
+
+[[lean_lib]]
+name = "DiscreteAlgebra"
